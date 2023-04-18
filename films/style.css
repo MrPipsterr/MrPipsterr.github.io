@@ -13,16 +13,18 @@ body {
     background: rgb(255, 255, 255);
 }
 
+
 .pipsterr {
     font-family: "Titillium Web", "RixSGo", sans-serif;
     /* margin-left: 4%; */
     text-align: center;
+    margin-right: 5%;
 }
 
 .films-info {
     text-align: center;
-    /* margin-right: 26.3%; */
     font-size: 20px;
+    /* margin-right: 26.3%; */
 }
 
 .films-info p {
@@ -48,7 +50,7 @@ body {
 }
 
 .card {
-    height: 50%;
+    height: auto;
     flex: 1;
     margin: 5px;
     box-shadow: 0 0 50px #0002;
