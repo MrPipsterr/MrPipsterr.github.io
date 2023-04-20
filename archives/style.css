@@ -20,15 +20,30 @@ body {
     margin-right: 5%;
 }
 
-.films-info {
+.archives-info {
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     /* margin-right: 26.3%; */
 }
 
-.films-info p {
+.archives-info p {
     min-width: 950px;
 }
+
+
+
+
+.archives-content {
+    margin-left: 25px;
+    margin-bottom: 60%;
+    margin: 5%;
+}
+
+
+
+
+
+
 
 
 
@@ -39,7 +54,7 @@ body {
 
 
 footer {
-    position: absolute;
+    position: absolute bottom;
     bottom: 0;
     left: 0;
     right: 0;
