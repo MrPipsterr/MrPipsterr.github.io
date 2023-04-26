@@ -36,19 +36,27 @@ body {
 
 
 .foto {
-    margin-left: 26.3%;
+    flex-wrap: wrap;
+    flex: 0 0 130px;
+    /* margin-left: 26.3%; */
     min-width: 950px;
+    justify-content: center;
+    display: flex;
 }
 
 .biodata {
-    text-align: left;
-    margin-right: 26.3%;
-    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 24%;
+    margin-right: 24%;
 }
 
-.biodata p {
-    min-width: 950px;
+.biodata img {
+    margin-right: 20px;
 }
+
 
 .youtube-gallery {
     font-weight: bold;
@@ -59,9 +67,10 @@ body {
 
 .youtube {
     display: flex;
-    width: 55%;
-    margin-left: 28%;
-    min-width: 950px;
+    /* width: 55%; */
+    /* margin-left: 28%; */
+    /* min-width: 950px; */
+    justify-content: center;
 }
 
 .container {
@@ -246,8 +255,8 @@ body.open .background {
     justify-content: space-between;
     width: 100%;
     height: 72px;
-    /* padding-left: 20px;
-    padding-right: 72px; */
+    padding-left: 20px;
+    padding-right: 72px;
 }
 
 .navbar-burger {
