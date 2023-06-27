@@ -103,7 +103,9 @@ body {
 .card:hover img{
     filter: none;
 }
-@media (max-width: 600px){
+
+
+@media (max-width: 500px) and (max-width: 900px){
     .container{
         width: 50%;
     }
