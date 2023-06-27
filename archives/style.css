@@ -54,14 +54,15 @@ body {
 
 
 footer {
-    position: bottom;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    /* position: bottom; */
+    bottom: auto;
+    left: auto;
+    right: auto;
     background: #101010;
     height: auto;
     width: auto;
-    padding-top: 30px;
+    padding: 1rem 0;
+    margin-top: 3rem;
 }
 
 .footer-content {
