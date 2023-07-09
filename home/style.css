@@ -255,14 +255,14 @@ body.open .background {
     width: 60px;
     height: 60px;
     background-image: url("menu.png");
-    background-size: 40px;
+    background-size: 35px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 body.open .navbar-burger {
     background-image: url("x.png");
-    background-size: 40px;
+    background-size: 35px;
 }
 
 .menu {
