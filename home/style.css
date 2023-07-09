@@ -352,7 +352,7 @@ body.open .menu a {
     .title {
         display: flex;
         justify-content: center;
-        font-size: 25px;
+        font-size: 40px;
         padding-bottom: 2%;
     }
 
@@ -361,16 +361,12 @@ body.open .menu a {
         justify-content: center;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-size: 19px;
+        font-size: 43px;
         text-align: justify;
     }
 
-    .biodata img {
-        align-items: center;
-    }
-
     .youtube-gallery p {
-        font-size: 40px;
+        font-size: 70px;
         margin: 0 auto;
     }
     
@@ -393,14 +389,14 @@ body.open .menu a {
     }
     
     .vsco-gallery p {
-        font-size: 40px;
+        font-size: 70px;
     }
 
     .container {
-        display: flex;
+        display: grid;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
         height: 70%;
     }
