@@ -348,7 +348,7 @@ body.open .menu a {
 
 
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 360px){
     .title {
         display: flex;
         justify-content: center;
@@ -361,12 +361,12 @@ body.open .menu a {
         justify-content: center;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-size: 43px;
+        font-size: 30.5px;
         text-align: justify;
     }
 
     .youtube-gallery p {
-        font-size: 70px;
+        font-size: 65px;
         margin: 0 auto;
     }
     
@@ -389,7 +389,7 @@ body.open .menu a {
     }
     
     .vsco-gallery p {
-        font-size: 70px;
+        font-size: 65px;
     }
 
     .container {
