@@ -9,8 +9,20 @@
 
 body {
     display: grid;
-    height: 100vh;
+    /* height: 100vh; */
     background: rgb(255, 255, 255);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.biodata {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .vsco-gallery {
@@ -28,36 +40,6 @@ body {
     margin: 0 auto;
 }
 
-.pipsterr {
-    font-family: "Titillium Web", "RixSGo", sans-serif;
-    /* margin-left: 4%; */
-    text-align: center;
-}
-
-
-.foto {
-    flex-wrap: wrap;
-    flex: 0 0 130px;
-    /* margin-left: 26.3%; */
-    min-width: 950px;
-    justify-content: center;
-    display: flex;
-}
-
-.biodata {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    margin-left: 24%;
-    margin-right: 24%;
-}
-
-.biodata img {
-    margin-right: 20px;
-}
-
-
 .youtube-gallery {
     font-weight: bold;
     text-align: center;
@@ -67,9 +49,6 @@ body {
 
 .youtube {
     display: flex;
-    /* width: 55%; */
-    /* margin-left: 28%; */
-    /* min-width: 950px; */
     justify-content: center;
 }
 
