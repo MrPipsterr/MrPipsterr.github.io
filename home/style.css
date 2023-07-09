@@ -84,7 +84,7 @@ body {
 }
 
 
-@media (max-width: 500px) and (max-width: 900px){
+@media (max-width: 720px) and (max-width: 900px){
     .container{
         width: 50%;
     }
@@ -177,7 +177,7 @@ footer {
     text-transform: uppercase;
 } */
 
-@media (max-width: 500px) {
+@media (max-width: 720px) {
     .footer-bottom p {
     float: none;
     }
@@ -335,5 +335,105 @@ body.open .menu a {
     }
     100% {
     opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px){
+    .title {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        padding-bottom: 2%;
+    }
+
+    .biodata {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 19px;
+        text-align: justify;
+    }
+
+    .biodata img {
+        align-items: center;
+    }
+
+    .youtube-gallery p {
+        font-size: 40px;
+        margin: 0 auto;
+    }
+    
+    .youtube-gallery {
+        font-weight: bold;
+        text-align: center;
+        min-width: 950px;
+        margin: 0 auto;
+    }
+    
+    .youtube {
+        display: flex;
+        justify-content: center;
+    }
+
+    .vsco-gallery {
+        font-weight: bold;
+        text-align: center;
+        min-width: 950px;
+    }
+    
+    .vsco-gallery p {
+        font-size: 40px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        height: 70%;
+    }
+
+    .card {
+        height: 200px;
+        flex: 1;
+        margin: 0 2%;
+        box-shadow: 0 0 50px #0002;
+        overflow: hidden;
+        border-radius: 4px;
+        transition: .5s;
+    }
+
+    .card img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0%;
+        filter: none;
+        border: #ffffff;
+        border-width: 3px;
+    }
+
+    footer {
+        /* position: bottom; */
+        bottom: auto;
+        left: auto;
+        right: auto;
+        background: #101010;
+        height: auto;
+        width: auto;
+        padding: 1rem 0;
+        margin-top: 25%;
     }
 }
