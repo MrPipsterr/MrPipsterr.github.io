@@ -254,14 +254,14 @@ body.open .background {
     place-items: center;
     width: 60px;
     height: 60px;
-    background-image: url("menu.png");
+    background-image: url("/images/menu.png");
     background-size: 35px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 body.open .navbar-burger {
-    background-image: url("x.png");
+    background-image: url("/images/x.png");
     background-size: 35px;
 }
 
