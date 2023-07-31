@@ -1,7 +1,7 @@
 * {
     font-family: "Titillium Web", "RixSGo", sans-serif;
     color: #282828;
-    word-break: break-all;
+    word-break: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,6 +28,11 @@ body {
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: larger;
+}
+
+.biodata p {
+    margin-top: 10px;
 }
 
 .vsco-gallery {
@@ -81,6 +86,7 @@ body {
     border-radius: 0%;
     filter: grayscale(1);
 }
+
 .card:hover {
     flex: 2;
 }
