@@ -359,7 +359,7 @@ body.open .menu a {
 
 
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 600px){
 
     .title {
         display: flex;
