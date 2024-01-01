@@ -7,12 +7,14 @@
     <title>Farrel Palinggi – Personal Web</title>
     <link rel="icon" href="/images/peaceminusone.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <div class="title">
+    <!-- <div class="title">
         <h1>MrPipsterr</h1>
     </div>
     <div class="biodata">
@@ -20,35 +22,81 @@
             <img src="/images/foto pas.png" alt="foto farrel" style=" margin: 0 20px;">
         </div>
         <p>Hi! My name is Farrel, I'm age years old, currently a college student majoring in Computer Science.<br>When I'm not drowning in deadlines, you'll find me eating, sleeping, binge-watching K-Dramas, and overthink my debts.<br>My goal is to become a Hokage.</p>
-    </div>
+    </div> -->
 
-    <div class="background"></div>
-    <button class="navbar-burger" onclick="toggleMenu()"></button>
-    <div class="menu">
-        <nav>
-            <a href="https://mrpipsterr.github.io/films/" style="animation-delay: 0.1s">Films</a>
-            <a href="https://mrpipsterr.github.io/archives/" style="animation-delay: 0.2s">Archives</a>
-            <a href="https://mrpipsterr.github.io/portofolio/" style="animation-delay: 0.4s">Portofolio</a>
-        </nav>
-    </div>
-    <script type="text/javascript">
-        const toggleMenu = () => {
-            document.body.classList.toggle("open");
-        };
-    </script>
+    <!-- <div id="particles-js"></div>
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script> -->
 
-    <div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-light bg-none">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex" href="#">
+                <img src="images/peaceminusone.png" alt="" width="45" height="45" class="d-inline-block align-text-top">
+                <h4>MrPipsterr</h4>
+            </a>
+
+            <div class="background"></div>
+            <button class="navbar-burger" onclick="toggleMenu()"></button>
+            <div class="menu">
+                <nav>
+                    <a href="https://mrpipsterr.github.io/films/" style="animation-delay: 0.1s">Films</a>
+                    <a href="https://mrpipsterr.github.io/archives/" style="animation-delay: 0.2s">Archives</a>
+                    <a href="https://mrpipsterr.github.io/portofolio/" style="animation-delay: 0.4s">Portofolio</a>
+                </nav>
+            </div>
+            <script type="text/javascript">
+                const toggleMenu = () => {
+                    document.body.classList.toggle("open");
+                };
+            </script>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- HOME -->
+    <section id="hero-up">
+        <div class="hero d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="fw-bold mb-4 shrink-text text-white">Hi, my name is Farrel</h1>
+                        <h2 class="lead mb-4 shrink-text text-white ">I'm currently a college student majoring in Information Systems.<br>When I'm not drowning in deadlines, you'll find me eating, sleeping, binge-watching K-Dramas, and overthink my debts.<br>My goal is to become a Hokage.</h2>
+                        <div class="d-grid gap-2 d-md-flex">
+                            <button class="btn btn-lg btn-primary me-md-2" type="button">More</button>
+                            
+                            <a href="#footer-content"><button class="btn btn-lg btn-outline-light" type="button">Contact Info</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HOME -->
+
+    <!-- YOUTUBE INFO -->
+    <section id="youtube-info">
         <div class="youtube-gallery">
             <br><br>
             <p>Latest Youtube Video</p>
             <br>
         </div>
-        <div class="youtube">
-            <iframe width="650" height="370" src="https://www.youtube.com/embed/4nLfyaV9hAQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="youtube-l">
+            <div class="youtube-left">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4nLfyaV9hAQ?si=uIQZMbK7QWHZqitN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <p>I enjoy creating YouTube videos that capture my daily life, both myself and with friends. These videos typically showcase moments compiled with minimal editing. It's just one of my hobbies, something I do during downtime, purely for the joy of sharing experiences.</p>
         </div>
+        <div class="youtube-r">
+            <p>My YouTube video creation is also based on my passion for music. I have skills in music, particularly in classical guitar, which I use for sharing and entertaining both myself and others. Currently, I'm taking a more serious approach in this field, participating in competitions and contributing to some short film projects with a focus on scoring music, as assigned by my friends. You can see some of my musical projects on archives <a href="https://mrpipsterr.github.io/archives/">here</a></p>
+            <div class="youtube-right">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4kwaiuLVF9A?si=Gkflo6bGUqv57e9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <!-- YOUTUBE INFO -->
 
 
-        <div class="vsco-gallery">
+        <!-- <div class="vsco-gallery">
             <p>
                 <br>
                 Check out my VSCO Gallery!
@@ -85,12 +133,169 @@
             </div>
         </div>
         
-    </div>
+    </div>  -->
+
+    <!-- EDUSKILL -->
+    <section id="eduskills">
+        <div class="skills main-container">
+            <hr>
+            <h1 class="pre-title fw-bold">Learning Path</h1>
+            <br><br><br><br><br>
+            <h3 class="section-title fw-bold">Education and Skills</h3><br>
+
+            <div class="skills-grid">
+                <div class="skills-left">
+                    <!-- education 1 -->
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+
+                        <div class="education-info">
+                            <h4 class="education-title">SMP Katolik Rajawali</h4>
+                            <p>Junior High School</p>
+                            <h3 class="education-years">2016-2019</h3>
+                        </div>
+                    </div>
+                    <!-- education 2 -->
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+
+                        <div class="education-info">
+                            <h4 class="education-title">SMA Katolik Rajawali</h4>
+                            <p>Senior High School</p>
+                            <h3 class="education-years">2019-2022</h3>
+                        </div>
+                    </div>
+                    <!-- education 3 -->
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+
+                        <div class="education-info">
+                            <h4 class="education-title">Universitas Hasanuddin</h4>
+                            <p>Information Systems</p>
+                            <h3 class="education-years">2022-Present</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-right">
+                    <p>
+                        I started on my coding journey in mid-2022, right when I started my college. Since the beginning of 2023, I've been diving deep into the world of front-end development, constantly seeking opportunities to explore and experiment with new technologies and frameworks. However, lately I've been really interested in learning more about the world of Data Science and Machine Learning. Below, you can see some of my skills in this field.
+                    </p>
+                    <div class="skills-list">
+                        <ul>
+                            <li><a href="https://www.python.org/"><i class='bx bxl-python'></i>Python</a>
+                                <span class="bar"><span class="python"></span></span>
+                            </li>
+                            <li><a href="https://www.java.com/en/"><i class='bx bxl-java'></i>Java</a>
+                                <span class="bar"><span class="java"></span></span>
+                            </li>
+                            <li><a href="https://www.w3schools.com/html/default.asp"><i class='bx bxl-html5'></i>HTML</a>
+                                <span class="bar"><span class="html"></span></span>
+                            </li>
+                            <li><a href="https://www.w3schools.com/css/default.asp"><i class='bx bxl-css3'></i>CSS</a>
+                                <span class="bar"><span class="css"></span></span>
+                            </li>
+                            <li><a href="https://www.mysql.com/"><i class='bx bxs-data'></i></i>MySQL</a>
+                                <span class="bar"><span class="sql"></span></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- EDUSKILL -->
+
+
+    <!-- Carousel -->
+    <section class="second-page" id="second-page">
+        <div class="vsco-gallery">
+            <p>
+                Check out my VSCO Gallery!
+                <a class="" href="https://vsco.co/farrelpalinggi/gallery" target="_blank">here</a>   
+            </p>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                    <a href="https://vsco.co/farrelpalinggi/media/5ffffc660d118816f5000001" target="_blank">
+                        <img src="images/vsco langit.jpg" class="d-block w-100 c-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><b>Sky (2020)</b></h5>
+                            <p><b>Shot with Realme 6</b></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item c-item">
+                    <a href="https://vsco.co/farrelpalinggi/media/62aee227179ee47aab000001" target="_blank">
+                        <img src="images/vsco bnw.jpg" class="d-block w-100 c-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><b>Silhouette (2022)</b></h5>
+                            <p><b>Shot with Realme 6</b></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item c-item">
+                    <a href="https://vsco.co/farrelpalinggi/media/6000003c0d118816f5000007" target="_blank">
+                        <img src="images/vsco anjay.jpg" class="d-block w-100 c-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><b>Exit (2020)</b></h5>
+                            <p><b>Shot with Realme 6</b></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item c-item">
+                    <a href="https://vsco.co/farrelpalinggi/media/63c6b13e179ee45a2f000003" target="_blank">
+                        <img src="images/vsco mirror.jpg" class="d-blockw-100 c-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><b>Self (2023)</b></h5>
+                            <p><b>Shot with Lumix Digicam</b></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item c-item">
+                    <a href="https://vsco.co/farrelpalinggi/media/63d52eee179ee410d2000004" target="_blank">
+                        <img src="images/vsco tangga.jpg" class="d-block w-100 c-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5><b>Stairs (2023)</b></h5>
+                            <p><b>Shot with Lumix Digicam</b></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- Carousel -->
+
+
+
+    <script src="./js/bootstrap.js"></script>
     <script src="main.js"></script>
 </body>
 
 <footer>
-    <div class="footer-content">
+    <div id="footer-content">
         <ul class="socials">
             <li><a href="https://www.instagram.com/farrelpalinggi/" target="_blank"><i class="fa fa-instagram"></i></a></li>
             <li><a href="https://twitter.com/MrPipsterr" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -98,10 +303,21 @@
             <li><a href="https://open.spotify.com/user/40zw6l3wb6hgcwa6d5spem9wh" target="_blank"><i class="fa fa-spotify"></i></a></li>
             <li><a href="https://github.com/MrPipsterr" target="_blank"><i class="fa fa-github"></i></a></li>
         </ul>
+        <p>MENU</p>
+        <ul class="footer-menu">
+            <li><a href="#hero-up">INTRODUCTION</a></li>
+            |
+            <li><a href="#youtube-info">LATEST YOUTUBE</a></li>
+            |
+            <li><a href="#eduskills">EDUCATION & SKILLS</a></li>
+            |
+            <li><a href="#second-page">VSCO CAROUSEL</a></li>
+        </ul>
+        <div class="footer-bottom">
+            <p> &copy 2023 - <script>document.write(new Date().getFullYear())</script> Farrel Palinggi, All Rights Reserved</p>
+        </div>
     </div>
-    <div class="footer-bottom">
-        <p> &copy <script>document.write(new Date().getFullYear())</script> Farrel Palinggi, All Rights Reserved</p>
-    </div>
+    
     <script src="main.js"></script>
 </footer>
 </html>
